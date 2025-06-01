@@ -106,8 +106,8 @@ export default function LandingPage() {
             <LanguageSelector />
             <a href="https://apps.apple.com/us/app/foodscan-ai/id6472478688" target="_blank" rel="noopener noreferrer">
               <Button className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600">
-                <Download className="w-4 h-4 mr-2" />
-                {t("nav.download")}
+                <Download className="w-4 h-4 " />
+
               </Button>
             </a>
           </div>
